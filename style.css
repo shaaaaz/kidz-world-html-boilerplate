@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbartext{
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 3vw;
+}
+
+.navbarimg1{
+    height: 40px;
+    padding: 5px;
+    margin-left: 3vw;
+}
+
+.navbarimg2{
+    height: 40px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+/* //navbar over */
+
+
+.bg{
+    width: 100vw;
+    z-index: -1;
+    margin-top: -8vw;
+    position: absolute;
+}
+
+.bg-text-area{
+    margin-left: 5vw;
+    margin-top: 7vw;
+
+}
+
+.bg-text{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 1.5vw;
+}
+
+.bg-text2{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/* bg over */
+
+.book{
+    margin-right: 70px;
+}
+
+.newbooksp1{
+    display: flex;
+}
+
+.newbooks,.newgames{
+    margin-top: 12vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.p2text{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.bookimg{
+    height: 270px;
+}
+
+.book-text1{
+    font-size: 130%;
+    margin-bottom: 3px;
+}
+
+.book-text2{
+    font-size: 90%;
+    margin-bottom: 5px;
+    color: rgb(122, 122, 122);
+}
+
+.book-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-cart{
+    display: flex;
+    align-items: center;
+    background-color: rgb(42, 148, 255);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.price{
+    font-size: 140%;
+}
+
+.book-cart-text{
+    color: white;
+    margin-left: 4px;
+    font-size: 101%;
+}
+
+.book-cart-img{
+    width: 30%;
+    margin-left: 0.5vw;
+}
+
+
+
+
+
+/* game */
+
+.gameimg{
+    width: 20vw;
+}
+
+.newgamesp1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+footer{
+    color: white;
+    background-color: black ;
+    display: flex;
+    margin-top: 170px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.face-pic{
+    margin-top: 20px;
+    border-radius: 500px;
+    width: 120px;
+    height: 120px;
+}
+
+.footer-text{
+    font-size: 120%;
+}
+
+.div1{
+    margin-left: 5vw;
+}
+
+.div2{
+    margin-right: 5vw;
+    text-align: right;
+}
