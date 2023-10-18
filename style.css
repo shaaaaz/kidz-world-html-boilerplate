@@ -75,11 +75,12 @@
 /* bg over */
 
 .book{
-    margin-right: 70px;
 }
 
 .newbooksp1{
     display: flex;
+    justify-content: space-between;
+    width: 90vw;
 }
 
 .newbooks,.newgames{
@@ -198,3 +199,121 @@ footer{
     margin-right: 5vw;
     text-align: right;
 }
+
+.bg112{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+
+    .bac-img{
+        width: 100vw;
+    }
+    
+    .nav-text-1{
+        text-align: center;
+    }
+
+    .navbartext{
+        display: block;
+        align-items: center;
+    }
+
+    .bg{
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .bg112{
+        display: block;
+    }
+
+    .bg-text-area{
+        margin-top: 10px;
+    }
+
+    .bg-text{
+        font-size: 1.5rem;
+        margin-bottom: 1px;
+    }
+
+    .bg-text2{
+        font-size: 0.7rem;
+    }
+
+    .newbooksp1{
+        display: block;
+    }
+
+    .newgamesp1{
+        display: block;
+    }
+
+    .p2text{
+        text-align: center;
+    }
+
+    .newbooks{
+        margin-top: 10vh;
+    }
+    
+    .book{
+        width: 60vw;
+        margin-top: 5vh;
+    }
+    
+    .bookimg{
+        width: 60vw;
+        height: auto;
+    }
+
+    .book-text1,.book-text2{
+        text-align: center;
+    }
+    
+    .newgamesp1{
+        width: 80vw;    
+    }
+
+    .gameimg{
+        width: 80vw;
+    }
+
+    .games{
+        margin-bottom: 10vh;
+    }
+
+    .newbooks,.newgames{
+        margin-left: 0vw;
+        
+    }
+
+    .newbooks{
+        margin-left: 10vw;
+    }
+
+    .book{
+        margin-left: 10vw;
+    }
+
+    .newgames{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+
+  }
